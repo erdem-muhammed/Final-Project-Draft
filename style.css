@@ -21,6 +21,7 @@ body
 {
     display: flex;
 }
+/*-------HEADER---------*/
 header .menu
 {
     justify-content: space-between;
@@ -61,3 +62,4 @@ header .menu .navbar ul li
     cursor: pointer;
     margin-left: 10px;
 }
+/*---------MAIN---------*/
