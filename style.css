@@ -14,18 +14,25 @@ body
 */
 .wrapper
 {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
+}
+.flex
+{
+    display: flex;
 }
 header .menu
 {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.profileImg
+.searchBox input
 {
-    display: flex;
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+    border-right: none;
+    outline: none;
 }
 .profileImg img
 {
@@ -36,7 +43,6 @@ header .menu
 }
 header .menu .navbar ul
 {
-    display: flex;
     justify-content: space-between;
 }
 header .menu .navbar ul li
