@@ -26,6 +26,7 @@ header .menu
 {
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
 }
 #Logo
 {
@@ -63,3 +64,22 @@ header .menu .navbar ul li
     margin-left: 10px;
 }
 /*---------MAIN---------*/
+.container
+{
+    margin-top: 50px;
+}
+aside
+{
+    width: 30%;
+    padding-top: 100px;
+}
+main
+{
+    width: 40%;
+    padding: 0 20px;
+}
+main .typeBox
+{
+    padding: 20px;
+    background-color: rgb(230, 230, 230);
+}
