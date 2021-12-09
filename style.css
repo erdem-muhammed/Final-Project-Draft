@@ -23,3 +23,13 @@ header .menu
     justify-content: space-between;
     align-items: center;
 }
+header .menu .navbar ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+header .menu .navbar ul li
+{
+    list-style: none;
+    cursor: pointer;
+}
