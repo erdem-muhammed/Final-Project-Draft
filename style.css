@@ -23,6 +23,17 @@ header .menu
     justify-content: space-between;
     align-items: center;
 }
+.profileImg
+{
+    display: flex;
+}
+.profileImg img
+{
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 header .menu .navbar ul
 {
     display: flex;
@@ -32,4 +43,5 @@ header .menu .navbar ul li
 {
     list-style: none;
     cursor: pointer;
+    margin-left: 10px;
 }
