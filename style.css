@@ -71,12 +71,15 @@ header .menu .navbar ul li
 aside
 {
     width: 30%;
-    padding-top: 100px;
+    padding: 100px 10px 0 10px;
+    background-color: rgb(247, 232, 232);
 }
 main
 {
     width: 40%;
     padding: 0 20px;
+    background-color: #aaa;
+    margin: 0 15px;
 }
 main .typeBox
 {
