@@ -80,6 +80,7 @@ header .menu .navbar ul li
     cursor: pointer;
     margin-left: 10px;
     color: #184C34;
+    font-weight: 400;
 }
 /*---------MAIN---------*/
 .container
