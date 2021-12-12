@@ -37,10 +37,12 @@ header .menu
 .searchBox input
 {
     width: 300px;
-    padding: 10px 15px;
+    padding: 10px;
     border: 1px solid #aaa;
     border-right: none;
     outline: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
 .searchBox button
 {
