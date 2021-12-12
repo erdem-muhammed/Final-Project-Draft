@@ -102,3 +102,8 @@ main .typeBox
 {
     padding: 20px;
 }
+main .posts
+{
+    padding: 0 20px;
+    margin-top: 30px;
+}
