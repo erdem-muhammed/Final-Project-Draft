@@ -80,12 +80,10 @@ header .menu .navbar ul li
 }
 aside
 {
-    width: 30%;
-    padding: 100px 10px 0 10px;
-    background-color: rgb(247, 232, 232);
-    background-color: white;
+    width: 25%;
+    padding: 0px 15px 0 15px;
+    background-color: rgb(252, 249, 249);
     box-shadow: 0px 0px 1px 0px #FFFFFF;
-    background-color: #EFF4ED;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -93,13 +91,12 @@ aside
 }
 main
 {
-    width: 40%;
+    width: 50%;
     padding: 0 20px;
     background-color: #aaa;
     margin: 0 15px;
-    background-color: white;
     box-shadow: 0px 0px 1px 0px #FFFFFF;
-    background-color: #EFF4ED;
+    background-color: white;
     border-radius: 4px;
     height: 70vh;
 }
