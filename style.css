@@ -6,6 +6,8 @@ body
 {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #001B2B;
 }
 /*:root
 {
@@ -52,6 +54,7 @@ header .menu
     border-radius: 50%;
     margin-right: 10px;
     cursor: pointer;
+    color: #184C34;
 }
 header .menu .navbar ul
 {
@@ -62,17 +65,26 @@ header .menu .navbar ul li
     list-style: none;
     cursor: pointer;
     margin-left: 10px;
+    color: #184C34;
 }
 /*---------MAIN---------*/
 .container
 {
     margin-top: 50px;
+    color: #0EBD60;
 }
 aside
 {
     width: 30%;
     padding: 100px 10px 0 10px;
     background-color: rgb(247, 232, 232);
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px #FFFFFF;
+    background-color: #EFF4ED;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 main
 {
@@ -80,9 +92,13 @@ main
     padding: 0 20px;
     background-color: #aaa;
     margin: 0 15px;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px #FFFFFF;
+    background-color: #EFF4ED;
+    border-radius: 4px;
+    height: 70vh;
 }
 main .typeBox
 {
     padding: 20px;
-    background-color: rgb(230, 230, 230);
 }
