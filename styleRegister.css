@@ -27,3 +27,9 @@ body
     border: 1px solid #aaa;
     border-radius: 8px;
 }
+.registerBox input[type=submit]
+{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25px;
+}
