@@ -41,7 +41,8 @@ body
 .loginBox input[type=submit]
 {
     cursor: pointer;
-    background-color: white;
+    background-color: black;
+    color: white;
     font-weight: bold;
     border-radius: 25px;
     width: 100%;
@@ -49,7 +50,20 @@ body
 }
 .loginBox input[type=submit]:hover
 {
-    background-color: black;
-    color: white;
+    background-color: rgb(51, 51, 51);
     transition: background-color ease-in-out 0.4s;
+}
+.loginBox input[type=submit]:last-child
+{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type=submit]:last-child:hover
+{
+    background-color: rgb(209, 208, 208);
 }
