@@ -5,12 +5,12 @@
 body
 {
     margin: 0;
-    background-color: ;
 }
 :root
 {
     --primaryGreen: #0EBD60;
     --darkGreen: #184C34;
+    --btnhoverGreen: #1eac1e;
 }
 .loginContainer
 {
@@ -79,4 +79,8 @@ body
     margin-bottom: 20px;
     padding: 10px 15px;
     border: 1px solid #aaa;
+}
+#registerBtn:hover
+{
+    background-color: var(--btnhoverGreen);
 }
