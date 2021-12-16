@@ -7,15 +7,24 @@ body
     margin: 0;
     background-color: ;
 }
+:root
+{
+    primaryGreen: #0EBD60;
+    darkGreen: #184C34;
+}
 .loginContainer
 {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 251, 251);
 }
 .loginContainer .loginBox
 {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: ;
 }
