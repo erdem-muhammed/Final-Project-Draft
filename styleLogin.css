@@ -43,6 +43,9 @@ body
     cursor: pointer;
     background-color: white;
     font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .loginBox input[type=submit]:hover
 {
