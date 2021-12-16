@@ -40,4 +40,5 @@ body
 .loginBox input[type=submit]
 {
     cursor: pointer;
+    background-color: white;
 }
