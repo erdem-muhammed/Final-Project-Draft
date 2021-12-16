@@ -9,11 +9,12 @@ body
     background-color: white;
     color: #001B2B;
 }
-/*:root
+:root
 {
-
+    primaryGreen: #0EBD60;
+    darkGreen: #184C34;
 }
-*/
+
 .wrapper
 {
     max-width: 1100px;
