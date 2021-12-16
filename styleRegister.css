@@ -40,6 +40,7 @@ body
     border-radius: 25px;
     background-color: #111;
     color: white;
+    margin-top: 10px;
 }
 .registerBox input[type=submit]:hover
 {
