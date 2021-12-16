@@ -103,6 +103,7 @@ aside .sideLine
 {
     font-weight: bold;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 main
 {
