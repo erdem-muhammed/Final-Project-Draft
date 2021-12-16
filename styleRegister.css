@@ -15,7 +15,15 @@ body
 }
 .registerForm .registerBox
 {
+    width: 400px;
     display: flex;
     flex-direction: column;
-    
+    padding: 20px;
+}
+.registerBox input
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
 }
