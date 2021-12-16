@@ -9,8 +9,8 @@ body
 }
 :root
 {
-    primaryGreen: #0EBD60;
-    darkGreen: #184C34;
+    --primaryGreen: #0EBD60;
+    --darkGreen: #184C34;
 }
 .loginContainer
 {
@@ -22,9 +22,22 @@ body
 }
 .loginContainer .loginBox
 {
+    padding: 100px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     width: 400px;
     height: 400px;
-    background-color: ;
+    background-color: #D8C3A5;
+    border-radius: 8px;
+}
+.loginBox input
+{
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+}
+.loginBox input[type=submit]
+{
+    cursor: pointer;
 }

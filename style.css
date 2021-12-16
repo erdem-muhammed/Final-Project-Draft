@@ -11,8 +11,8 @@ body
 }
 :root
 {
-    primaryGreen: #0EBD60;
-    darkGreen: #184C34;
+    --primaryGreen: #0EBD60;
+    --darkGreen: #184C34;
 }
 
 .wrapper
