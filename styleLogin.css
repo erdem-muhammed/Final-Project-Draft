@@ -68,3 +68,15 @@ body
 {
     background-color: rgb(212, 212, 212);
 }
+#registerBtn
+{
+    cursor: pointer;
+    background-color: var(--primaryGreen);
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+}
