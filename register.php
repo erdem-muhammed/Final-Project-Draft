@@ -17,5 +17,13 @@ $conn = new mysqli($server_name, $server_user, $server_pass, $database_name);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
-
+  $sql = INSERT INTO `register_info` (`id`, `name`, `surname`, `email`, `password`, `phone_number`) VALUES ('3', 'maria', 'müller', 'maria@test.com', '123456789', '123123123');
+  if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+  
+  $conn->close();
+  
 ?>
