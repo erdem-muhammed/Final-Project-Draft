@@ -13,4 +13,9 @@ $server_pass = "";
 $database_name = "final_project";
 
 $conn = new mysqli($server_name, $server_user, $server_pass, $database_name);
+//check Connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
 ?>
