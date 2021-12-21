@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styleRegister.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+   
 </head>
 <body>
     <div class="registerForm">
-    <form action="project_final/database/register.php" method="post">
         <div class="registerBox">
+            <form action="http://localhost/project_final/database/register.php" method="post">
             <h1>Register</h1>
             <input type="text" name="name" placeholder="Name" required>
             <input type="text" name="surname" placeholder="Surname" required>
@@ -19,9 +19,9 @@
             <input type="password" name="password" placeholder="Password" required>
             <input type="text" name="phoneNumber" placeholder="Phone Number" required>
             <input type="submit" value="Submit">
+            </form>
         </div>
-    </form>
     </div>
-    <script src="script.js"></script>
+  
 </body>
 </html>
