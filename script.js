@@ -14,6 +14,8 @@ myForm.addEventListener('submit', function(e){
         return response.text();
     }).then(function (text) {
         console.log(text);
+    }).catch(function(error) {
+        console.log(error);
     })
 
 });
