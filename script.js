@@ -8,7 +8,8 @@ myForm.addEventListener('submit', function(e){
 
     const formData = new FormData(this);
     fetch('register.php', {
-        
-    })
+        method: 'post',
+        body: formData
+    }).then
 
 });
