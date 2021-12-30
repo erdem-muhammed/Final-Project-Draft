@@ -10,6 +10,8 @@ myForm.addEventListener('submit', function(e){
     fetch('register.php', {
         method: 'post',
         body: formData
-    }).then
+    }).then(function (response) {
+        return response.text();
+    }).then(function (text))
 
 });
