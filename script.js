@@ -7,5 +7,8 @@ myForm.addEventListener('submit', function(e){
     e.preventDefault();
 
     const formData = new FormData(this);
+    fetch('register.php', {
+        
+    })
 
 });
