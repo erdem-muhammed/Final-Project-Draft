@@ -7,7 +7,7 @@ myForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
     const formData = new FormData(this);
-    fetch('register.php', {
+    fetch('http://localhost/project_final/database/register.php', {
         method: 'post',
         body: formData
     }).then(function (response) {
