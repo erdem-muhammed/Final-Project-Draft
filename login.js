@@ -5,11 +5,15 @@ const formData = new FormData();
 formData.append("email", document.getElementById("usernameInp"));
 formData.append("password", document.getElementById("passInp"));
 
-loginInp.addEventListener('submit', function() {
+loginInp.addEventListener('click', function() {
     fetch('http://localhost/project_final/database/login.php', {
         method: 'POST',
         mode: 'cors',
-        body: formData
+        body: formData,
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        }
     })
     .then(response => response.json())
     .then(result => {
@@ -25,5 +29,5 @@ loginInp.addEventListener('submit', function() {
         {
             console.log("login failed!!");
         }
-    })
-})
+    });
+});
