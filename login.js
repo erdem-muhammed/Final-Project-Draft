@@ -15,7 +15,15 @@ loginInp.addEventListener('submit', function() {
     .then(result => {
         if(result.successfull == "1")
         {
+            document.cookie = "token=" + result.token;
 
+            ///Welcome
+
+            console.log("login successfull");
+        }
+        else
+        {
+            console.log("login failed!!");
         }
     })
 })
