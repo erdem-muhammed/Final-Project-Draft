@@ -12,4 +12,10 @@ loginInp.addEventListener('submit', function() {
         body: formData
     })
     .then(response => response.json())
+    .then(result => {
+        if(result.successfull == "1")
+        {
+
+        }
+    })
 })
