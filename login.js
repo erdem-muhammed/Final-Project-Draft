@@ -29,5 +29,5 @@ loginInp.addEventListener('click', function() {
         {
             console.log("login failed!!");
         }
-    });
+    })
 });
