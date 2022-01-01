@@ -1,2 +1,2 @@
 
-login
+const loginInp = document.getElementById("loginInp");
