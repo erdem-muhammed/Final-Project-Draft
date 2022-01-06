@@ -2,12 +2,12 @@
 const loginInp = document.getElementById("loginInp");
 
 const formData = new FormData();
-formData.append("email", document.getElementById("usernameInp"));
-formData.append("password", document.getElementById("passInp"));
+formData.append("email", document.getElementById("usernameInp").value);
+formData.append("password", document.getElementById("passInp").value);
 
 loginInp.addEventListener('click', function() {
     fetch('http://localhost/project_final/database/login.php', {
-        method: 'POST',
+        method: 'post',
         mode: 'cors',
         body: formData,
         headers: {
